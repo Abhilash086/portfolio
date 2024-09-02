@@ -211,15 +211,16 @@
         <div class="form-left">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3828.2225278275655!2d77.35856717460581!3d16.362622831517836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc9cf00013e7b57%3A0x9e7376f4f4fc42e5!2sShetty&#39;s%20House!5e0!3m2!1sen!2sin!4v1725259672042!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <form class="form-detail" action="#" method="post">
+        <form class="form-detail" action="https://api.web3forms.com/submit" method="post">
+          <input type="hidden" name="access_key" value="1fe616fa-9dea-4b79-a798-bb70dcbec3af">
         <div class="form-row">
-        <input type="text" class="input-text" placeholder="Your Full Name" required>
+        <input type="text" class="input-text" name="Name" placeholder="Your Full Name" required>
         </div>
         <div class="form-row">
-        <input type="email" class="input-text" placeholder="Your Email Address" required>
+        <input type="email" class="input-text" name="Email ID" placeholder="Your Email Address" required>
         </div>
         <div class="form-row">
-        <textarea name="" id="" placeholder="Enter Your Message"></textarea>
+        <textarea id="" name="Subject" placeholder="Enter Your Message"></textarea>
         </div>
         <div class="form-row-last">
         <input type="submit" class="send-btn" value="Send">
