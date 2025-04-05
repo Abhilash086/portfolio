@@ -3,15 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
 
 html,body{
     width: 100%;
     height: 100%;
     font-family: "Open Sans", sans-serif;
     background-color: #93a4b1a8;
+    scroll-behavior: smooth;
 }
 
 #particles-js{
