@@ -9,6 +9,7 @@ html,body{
     height: 100%;
     font-family: "Open Sans", sans-serif;
     background-color: #93a4b1a8;
+    scroll-behaviour: smooth;
 }
 
 #particles-js{
