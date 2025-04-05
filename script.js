@@ -62,3 +62,5 @@ document.querySelector(".latest-works").addEventListener("click",()=>{
 document.querySelector("#about-me").addEventListener("click",()=>{
   window.location.href = "https://www.linkedin.com/in/abhilashshettyk/";
 });
+
+document.querySelector("#section-3").scrollIntoView({behavior: "smooth"});
